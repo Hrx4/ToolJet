@@ -120,7 +120,8 @@ const sidebars = {
       "items": [
         "build-with-ai/overview",
         "build-with-ai/generate-applications",
-        "build-with-ai/ai-docs-assistant"
+        "build-with-ai/ai-docs-assistant",
+        "build-with-ai/tooljet-mcp",
       ]
     },
     {
@@ -306,6 +307,7 @@ const sidebars = {
             },
           ],
         },
+        'tutorial/transformations',
         'app-builder/anti-patterns',
         'tutorial/keyboard-shortcuts',
       ],
@@ -318,7 +320,6 @@ const sidebars = {
       'collapsible': false,
       'items': [
         'data-sources/overview',
-        'data-sources/sample-data-sources',
         {
           'type': 'category',
           'label': 'Data Sources library',
@@ -350,6 +351,7 @@ const sidebars = {
             'data-sources/mssql',
             'data-sources/mysql',
             'data-sources/n8n',
+            'data-sources/nocodb',
             'data-sources/notion',
             'data-sources/openapi',
             'data-sources/oracledb',
@@ -383,8 +385,6 @@ const sidebars = {
             'data-sources/zendesk',
           ],
         },
-        'tutorial/transformations',
-        'data-sources/local-data-sources-migration',
         {
           'type': 'category',
           'label': 'Marketplace',
@@ -417,11 +417,14 @@ const sidebars = {
                 'marketplace/plugins/marketplace-plugin-hugging_face',
                 'marketplace/plugins/marketplace-plugin-cohere',
                 'marketplace/plugins/marketplace-plugin-weaviate',
-                'marketplace/plugins/marketplace-plugin-qdrant'
+                'marketplace/plugins/marketplace-plugin-qdrant',
+                'marketplace/plugins/marketplace-plugin-azurerepos'
               ],
             },
           ],
         },
+        'data-sources/permissions',
+        'data-sources/sample-data-sources',
       ],
     },
     {
